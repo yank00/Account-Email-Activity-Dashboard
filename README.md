@@ -1,1 +1,2 @@
 # Account-Email-Activity-Dashboard
+A BigQuery SQL pipeline (CTEs, UNION, and window functions) that produces a single dataset aggregating account and email metrics by date, country, send_interval, is_verified, and is_unsubscribed — including account_cnt, sent_msg, open_msg, visit_msg, country totals, and country ranks (filtered to top-10 by accounts or sends). The output powers a Looker Studio report with country-level KPIs and a sent_msg time series.
